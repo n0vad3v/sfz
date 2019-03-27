@@ -23,7 +23,6 @@ class Sfz:
         Takes the first 6 digits to determine the location of the specified ID card.
         :return: string or "Unknown" if not in code_list
         """
-        #TODO: Put code_list as a API
         code = self.loc_code
         if code in code_list:
             return code_list[code]

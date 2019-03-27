@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sfz-novakwok",
-    version="0.0.1",
+    version="0.0.2",
     author="Nova Kwok",
     author_email="n0vad3v@riseup.net",
-    description="A small example package",
+    description="A simple Package to deal with Mainland ID Card Number.（一個用來處理大陸身份證號碼的小包）。",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/n0vad3v/sfz",
